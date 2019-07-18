@@ -8,12 +8,12 @@ module.exports = {
      * Workaround of https://github.com/ulivz/vuepress-plugin-blog/issues/1
      */
     modifyBlogPluginOptions(blogPlugnOptions) {
-      const archiveDirectoryClassifierIndex = blogPlugnOptions.directories.findIndex(d => d.id === 'archive')
-      blogPlugnOptions.directories.splice(archiveDirectoryClassifierIndex, 1)
+      // const archiveDirectoryClassifierIndex = blogPlugnOptions.directories.findIndex(d => d.id === 'archive')
+      // blogPlugnOptions.directories.splice(archiveDirectoryClassifierIndex, 1)
       const writingDirectoryClassifier = {
         id: 'projects',
         dirname: '_projects',
-        path: '/projects/',
+        path: '/',
         layout: 'IndexProjects',
         itemLayout: 'Post',
         itemPermalink: '/projects/:year/:month/:day/:slug',
@@ -21,25 +21,41 @@ module.exports = {
           perPagePosts: 5,
         },
       }
-      
-      blogPlugnOptions.directories.push(writingDirectoryClassifier)
+      const postDirectoryClassifier = {
+        id: 'post',
+        dirname: '_posts',
+        path: '/posts',
+        layout: 'IndexPost',
+        itemLayout: 'Post',
+        itemPermalink: '/:year/:month/:day/:slug',
+        pagination: {
+          perPagePosts: 5,
+        },
+      }
+      // blogPlugnOptions.directories.push(writingDirectoryClassifier)
+      blogPlugnOptions.directories.splice(0, 1, writingDirectoryClassifier)
+      blogPlugnOptions.directories.splice(1, 1, postDirectoryClassifier)
       return blogPlugnOptions
     },
     /**
      * Ref: https://vuepress-theme-blog.ulivz.com/#nav
      */
     nav: [
-      {
-        text: '博客',
-        link: '/',
-      },
+      // {
+      //   text: '博客',
+      //   link: '/',
+      // },
       {
         text: '项目',
-        link: '/projects/',
+        link: '/',
       },
       {
         text: '标签',
         link: '/tag/',
+      },
+      {
+        text: '关于',
+        link: '/2019/06/26/about-me/',
       },
     ],
     /**
