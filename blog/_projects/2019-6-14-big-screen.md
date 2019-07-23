@@ -27,34 +27,36 @@ location: Shanghai
   - 基于 canvas 的签名板
 
 ## 功能展示
+### 实时声波
+![](../_images/big-screen/soundwave.gif)
 ### 触摸操作
-![](../_images/interaction.gif)
+![](../_images/big-screen/interaction.gif)
 ### 选择截面
-![](../_images/profile.gif)
+![](../_images/big-screen/profile.gif)
 ### 选择尺寸
-![](../_images/ringsize.gif)
+![](../_images/big-screen/ringsize.gif)
 ### 选择宽度
-![](../_images/ringwidth.gif)
+![](../_images/big-screen/ringwidth.gif)
 ### 选择材质
-![](../_images/material.gif)
+![](../_images/big-screen/material.gif)
 ### 选择工艺
-![](../_images/process.gif)
+![](../_images/big-screen/process.gif)
 ### 镶嵌排钻
-![](../_images/diamond.gif)
+![](../_images/big-screen/diamond.gif)
 ### 滚珠修饰
-![](../_images/ball.gif)
+![](../_images/big-screen/ball.gif)
 ### 镭射文字
-![](../_images/letter.gif)
+![](../_images/big-screen/letter.gif)
 ### 镭射指纹
-![](../_images/fingerprint.gif)
+![](../_images/big-screen/fingerprint.gif)
 ### 镭射声波
-![](../_images/record.gif)
+![](../_images/big-screen/record.gif)
 ### 镭射坐标
-![](../_images/map.gif)
+![](../_images/big-screen/map.gif)
 ### 镭射签名
-![](../_images/sign.gif)
+![](../_images/big-screen/sign.gif)
 ## 演示视频
-<video src="../_images/big-screen.mp4" width="100%" height="auto"
+<video src="../_images/big-screen/big-screen.mp4" width="100%" height="auto"
 controls="controls"></video>
 
 
