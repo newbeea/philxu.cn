@@ -19,6 +19,19 @@ location: Shanghai
 - 利用树莓派配置 cups 打印驱动，取代 pc，减少装置成本，直接打印声波明信片
 - 声波明信片有对应波纹，二维码可重听祝福语音
 
+::: run {title: '局部配置', 'height': '200px', row: false, reverse: true}
+```html
+<template>
+    <div>通过局部配置实现<b>高度自定义</b>和<b>左右布局</b></div>
+</template>
+<style>
+    b {
+        color: #3eaf7c;
+    }
+</style>
+` ` `
+:::
+
 ## 功能展示
 ### 互动全景
 #### 弹幕从一块屏幕穿越到另一块屏幕变成对应的声音波形图

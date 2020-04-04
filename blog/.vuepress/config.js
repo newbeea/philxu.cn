@@ -1,6 +1,7 @@
 module.exports = {
   title: 'Phil Xu',
   description: 'webgl vue threejs developer',
+  plugins: ['run'],
   theme: '@vuepress/theme-blog', // OR shortcut: @vuepress/blog
   themeConfig: {
     /**
