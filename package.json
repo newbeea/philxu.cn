@@ -1,0 +1,24 @@
+{
+  "name": "philxu.cn",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "authors": {
+    "name": "",
+    "email": ""
+  },
+  "repository": "/philxu.cn",
+  "scripts": {
+    "dev": "vuepress dev blog",
+    "build": "vuepress build blog"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/theme-blog": "^1.0.0",
+    "vuepress": "^1.0.0"
+  },
+  "dependencies": {
+    "vuepress-plugin-run": "^1.0.1",
+    "vuepress-theme-bulma": "^1.0.6"
+  }
+}
