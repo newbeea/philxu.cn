@@ -21,7 +21,7 @@ location: Shanghai
 
 
 
-::: run {title: 'DEMO', row: false, reverse: true, jsLabs: ['http://cdn.jsdelivr.net/npm/@gl-widget/gl-widget@1.0.7/dist/index.umd.js', 'http://cdn.jsdelivr.net/npm/@gl-widget/physical-shader@1.0.3/dist/index.umd.js', 'http://cdn.jsdelivr.net/npm/@gl-widget/obj-parser@1.0.4/dist/index.umd.js', 'http://cdn.jsdelivr.net/npm/@gl-widget/orbit-controls@1.0.6/dist/index.umd.js', 'http://cdn.jsdelivr.net/npm/dat.gui/build/dat.gui.min.js']}
+::: run {title: 'DEMO', row: false, reverse: true, jsLabs: ['https://cdn.jsdelivr.net/npm/@gl-widget/gl-widget@1.0.7/dist/index.umd.js', 'https://cdn.jsdelivr.net/npm/@gl-widget/physical-shader@1.0.3/dist/index.umd.js', 'https://cdn.jsdelivr.net/npm/@gl-widget/obj-parser@1.0.4/dist/index.umd.js', 'https://cdn.jsdelivr.net/npm/@gl-widget/orbit-controls@1.0.6/dist/index.umd.js', 'https://cdn.jsdelivr.net/npm/dat.gui/build/dat.gui.min.js']}
 ```html
 <template>
     <div id="demo">
