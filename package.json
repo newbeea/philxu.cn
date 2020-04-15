@@ -11,7 +11,7 @@
   "scripts": {
     "dev": "vuepress dev blog",
     "build": "vuepress build blog",
-    "start": "npm run build && node server.js"
+    "start": "node server.js"
   },
   "license": "MIT",
   "devDependencies": {

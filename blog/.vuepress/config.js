@@ -71,11 +71,11 @@ module.exports = {
       ],
       copyright: [
         {
-          text: 'Privacy Policy',
-          link: 'https://policies.google.com/privacy?hl=en-US',
+          text: '黑ICP备20001731号',
+          link: 'http://beian.miit.gov.cn/',
         },
         {
-          text: 'MIT Licensed | Copyright © 2018-present Vue.js',
+          text: 'MIT Licensed | Copyright © 2018-present Phil Xu',
           link: '',
         },
       ],
